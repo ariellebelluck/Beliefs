@@ -9,7 +9,7 @@
                     "title": "Overview of 'What's going on at Sunny School?'"
                 },
                 {
-                    "text": "From start to finish, today's activity will take about 10 minutes. First, your child will hear about a school called Sunny School. We'll learn about something that happened at Sunny School! Then, your child will answer some questions about the characters in the story and what happened."
+                    "text": "From start to finish, today's activity will take about 15 minutes. First, your child will hear about a school called Sunny School. We'll learn about something that happened at Sunny School! Then, your child will answer some questions about the characters in the story and what happened."
                 },
                 {
                     "text": "There are no right or wrong answers to the questions we’re asking – we just want to know what your child thinks, so we kindly ask that you let your child respond freely to the questions. For the duration of the study, please sit behind your child or out of your child's eyesight to avoid influencing their answers. However, if your child needs help clicking their answer choices, please help them do so."
@@ -38,25 +38,25 @@
             "kind": "exp-lookit-video-assent",
             "pages": [
                 {
-                    "imgSrc": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/img/me.png",
+                    "imgSrc": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/img/mug.png",
                     "altText": "scientist",
                     "textBlocks": [
                         {
                             "text": "My name is Aarthi Popat. I am a scientist who studies what children think about social groups."
                         }
                     ],
-                    "audio": "childAssent_rec1",
+                    "audio": "sample_1",
                     "type": "audio/mp3"
                 },
                 {
-                    "imgSrc": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/img/DISPIM_sunnyschool.png",
+                    "imgSrc": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/img/mug.png",
                     "altText": "picture of sample game",
                     "textBlocks": [
                         {
                             "text": "In this study, you will hear about a school called Sunny School and answer some questions about what happened at Sunny School by clicking on answer choices!"
                         }
                     ],
-                    "audio": "childAssent_rec2",
+                    "audio": "sample_1",
                     "type": "audio/mp3"
                 },
                 {
@@ -66,11 +66,11 @@
                             "text": "During the study, your webcam will record a video of you. We will watch this video later so we can remember how you answered the questions."
                         }
                     ],
-                    "audio": "childAssent_rec3",
+                    "audio": "sample_1",
                     "type": "audio/mp3"
                 }
             ],
-            "baseDir": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/",
+            "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
             "videoTypes": [
                 "webm",
                 "mp4"
@@ -91,14 +91,14 @@
                     "text": "If you'd like to see the pictures your child will be shown, you can take a look ahead of time now. It's important that you preview these without your child, so that the pictures and audio will still be new to them."
                 }
             ],
-            "baseDir": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/",
+            "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
             "stimuli": [
                 {
-                    "image": "DISPIM_kids_NI.png",
+                    "image": "mug.png",
                     "caption": "Children will see the children at Sunny School, who look like this."
                 },
                 {
-                    "image": "DISPIM_POOFFIZZ.png",
+                    "image": "mug.png",
                     "caption": "We'll also introduce your child to alien characters, who look like this."
                 }
             ],
@@ -231,11 +231,11 @@
                 },
                 {
                     "kind": "exp-lookit-images-audio",
-                    "audio": "CLICK_INSTRUCTIONS (1)",
+                    "audio": "sample_1",
                     "images": [
                         {
                             "id": "fruit",
-                            "src": "FRUITCALIB.png",
+                            "src": "mug.png",
                             "left": 5,
                             "width": 30,
                             "top": 10,
@@ -243,14 +243,14 @@
                         },
                         {
                             "id": "cereal",
-                            "src": "CEREALCALIB.png",
+                            "src": "blue.png",
                             "left": 65,
                             "width": 30,
                             "top": 10,
                             "nonChoiceOption": false
                         }
                     ],
-                    "baseDir": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/",
+                    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
                     "audioTypes": [
                         "mp3",
                         "ogg"
@@ -261,11 +261,11 @@
                 },
                 {
                     "kind": "exp-lookit-images-audio",
-                    "audio": "CALIB1AUDIO (online-audio-converter.com) (1)",
+                    "audio": "sample_1",
                     "images": [
                         {
                             "id": "fruit",
-                            "src": "FRUITCALIB.png",
+                            "src": "blue.png",
                             "left": 5,
                             "width": 30,
                             "top": 10,
@@ -275,7 +275,7 @@
                         },
                         {
                             "id": "cereal",
-                            "src": "CEREALCALIB.png",
+                            "src": "mug.png",
                             "left": 65,
                             "width": 30,
                             "top": 10,
@@ -284,7 +284,7 @@
                             "feedbackAudio": "CEREAL (1)"
                         }
                     ],
-                    "baseDir": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/",
+                    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
                     "audioTypes": [
                         "mp3",
                         "ogg"
@@ -296,34 +296,34 @@
                 },
                 {
                     "kind": "exp-lookit-images-audio",
-                    "audio": "BETTERSCALE2 (online-audio-converter.com) (2)",
+                    "audio": "sample_1",
                     "images": [
                        {
                             "id": "little",
-                            "src": "DISPIM_lit.png",
+                            "src": "blue.png",
                             "displayDelayMs": 3000,
                             "left": 25,
                             "width": 20,
-                            "feedbackAudio": "DISPIM_alittle"
+                            "feedbackAudio": "sample_1"
                         },
                         {
                             "id": "medium",
-                            "src": "DISPIM_med.png",
+                            "src": "blue.png",
                             "displayDelayMs": 5500,
                             "left": 45,
                             "width": 20,
-                            "feedbackAudio": "DISPIM_medium"
+                            "feedbackAudio": "sample_1"
                         },
                         {
                             "id": "lot",
-                            "src": "DISPIM_lot.png",
+                            "src": "blue.png",
                             "displayDelayMs": 7500,
                             "left": 65,
                             "width": 20,
-                            "feedbackAudio": "DISPIM_alot"
+                            "feedbackAudio": "sample_1"
                         }
                     ],
-                    "baseDir": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/",
+                    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
                     "audioTypes": [
                         "mp3",
                         "ogg"
@@ -335,30 +335,30 @@
                 },
                 {
                     "kind": "exp-lookit-images-audio",
-                    "audio": "CALIB_2 (1)",
+                    "audio": "sample_1",
                     "images": [
                         {
                             "id": "sandbox",
-                            "src": "SANDBOXCALIB.png",
+                            "src": "mug.png",
                             "left": 5,
                             "width": 30,
                             "top": 10,
                             "displayDelayMs": 7000,
                             "nonChoiceOption": false,
-                            "feedbackAudio": "SANDBOX (1)"
+                            "feedbackAudio": "sample_1"
                         },
                         {
                             "id": "playground",
-                            "src": "PLAYGROUNDCALIB.png",
+                            "src": "mug.png",
                             "left": 65,
                             "width": 30,
                             "top": 10,
                             "displayDelayMs": 8000,
                             "nonChoiceOption": false,
-                            "feedbackAudio": "PLAYGROUND (1)"
+                            "feedbackAudio": "sample_1"
                         }
                     ],
-                    "baseDir": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/",
+                    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
                     "audioTypes": [
                         "mp3",
                         "ogg"
@@ -370,34 +370,34 @@
                 },
                {
                     "kind": "exp-lookit-images-audio",
-                    "audio": "BETTERSCALE2 (online-audio-converter.com) (2)",
+                    "audio": "sample_1",
                     "images": [
                         {
                             "id": "little",
-                            "src": "DISPIM_lit.png",
+                            "src": "mug.png",
                             "displayDelayMs": 3000,
                             "left": 25,
                             "width": 20,
-                            "feedbackAudio": "DISPIM_alittle"
+                            "feedbackAudio": "sample_1"
                         },
                         {
                             "id": "medium",
-                            "src": "DISPIM_med.png",
+                            "src": "blue.png",
                             "displayDelayMs": 5500,
                             "left": 45,
                             "width": 20,
-                            "feedbackAudio": "DISPIM_medium"
+                            "feedbackAudio": "sample_1"
                         },
                         {
                             "id": "lot",
-                            "src": "DISPIM_lot.png",
+                            "src": "blue.png",
                             "displayDelayMs": 7500,
                             "left": 65,
                             "width": 20,
-                            "feedbackAudio": "DISPIM_alot"
+                            "feedbackAudio": "sample_1"
                         }
                     ],
-                    "baseDir": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/",
+                    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
                     "audioTypes": [
                         "mp3",
                         "ogg"
@@ -409,14 +409,14 @@
                 },
                 {
                     "kind": "exp-lookit-images-audio",
-                    "audio": "DISPIM_intro",
+                    "audio": "sample_1",
                     "images": [
                         {
                             "id": "sunnySchool",
-                            "src": "DISPIM_sunnyschool.png"
+                            "src": "mug.png"
                         }
                     ],
-                    "baseDir": "https://raw.githubusercontent.com/aarthipopat/lookit-stimuli-template/master/",
+                    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
                     "audioTypes": [
                         "mp3",
                         "ogg"
@@ -1382,7 +1382,11 @@
         "video-preview",
         "final-instructions",
         "webcam-display-break",
-        "test-trials",
         "my-exit-survey"
     ]
 }
+
+
+
+
+"test-trials",
