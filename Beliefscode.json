@@ -222,6 +222,26 @@
                 ]
             }
         },
+        "beliefs-test": {
+                    "kind": "exp-lookit-images-audio",
+                    "audio": "sample_1",
+                    "images": [
+                        {
+                            "id": "blank",
+                            "src": "blank.png",
+                            "position": "fill"
+                        }
+                    ],
+                    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+                    "audioTypes": [
+                        "mp3",
+                        "ogg"
+                    ],
+                    "autoProceed": false,
+                    "doRecording": true,
+                    "choiceRequired": true,
+                    "canMakeChoiceBeforeAudioFinished": false
+                },
         "test-trials": {
             "kind": "choice",
             "sampler": "random-parameter-set",
@@ -1374,8 +1394,12 @@
             }
         }
     },
-    "sequence": [
-        "study-intro",
+    "sequence": ["beliefs-test"]
+}
+
+
+
+"study-intro",
         "video-config",
         "video-consent",
         "video-assent",
@@ -1383,10 +1407,4 @@
         "final-instructions",
         "webcam-display-break",
         "my-exit-survey"
-    ]
-}
-
-
-
-
 "test-trials",
