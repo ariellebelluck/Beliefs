@@ -309,16 +309,17 @@
     "images": [
         {
             "id": "practice1_cereal",
-            "src": "practice1_choice_cereal.jpg",
+            "src": "practice1_choice_cereal.png",
             "position": "left",
             "feedbackAudio": "sample_1"
         },
         {
             "id": "practice1_eggs",
-            "src": "practice1_choice_eggs.jpg",
+            "src": "practice1_choice_eggs.png",
             "correct": true,
             "position": "right",
-            "displayDelayMs": 3500
+            "displayDelayMs": 3500,
+            "feedbackAudio": "sample_1"
         }
     ],
     "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
