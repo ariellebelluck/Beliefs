@@ -281,6 +281,53 @@
       "autoProceed": true,
       "doRecording": false
     },
+          "practice1-5": {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sample_1",
+      "images": [
+        { "id": "blank", "src": "practice1_5.png", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+          "practice1-6": {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sample_1",
+      "images": [
+        { "id": "blank", "src": "practice1_6.png", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    "practice1-choice": {
+    "kind": "exp-lookit-images-audio",
+    "audio": "sample_1",
+    "images": [
+        {
+            "id": "practice1_cereal",
+            "src": "practice1_choice_cereal.jpg",
+            "position": "left",
+            "feedbackAudio": "sample_1"
+        },
+        {
+            "id": "practice1_eggs",
+            "src": "practice1_choice_eggs.jpg",
+            "correct": true,
+            "position": "right",
+            "displayDelayMs": 3500
+        }
+    ],
+    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+    "autoProceed": false,
+    "doRecording": true,
+    "choiceRequired": true,
+    "correctChoiceRequired": true,
+    "canMakeChoiceBeforeAudioFinished": false
+},
     "beliefs-stop-recording": {
       "kind": "exp-lookit-stop-recording"
     }
@@ -300,6 +347,9 @@
     "practice1-2",
     "practice1-3",
     "practice1-4",
+    "practice1-5",
+    "practice1-6",
+    "practice1-choice",
     "beliefs-stop-recording",
     "my-exit-survey"
   ]
