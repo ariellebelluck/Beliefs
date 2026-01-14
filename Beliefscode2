@@ -1,0 +1,258 @@
+{
+    "frames": {
+        "study-intro": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "emph": true,
+                    "text": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
+                    "title": "Overview of 'What's going on at Sunny School?'"
+                },
+                {
+                    "text": "From start to finish, today's activity will take about 15 minutes. First, your child will hear about a school called Sunny School. We'll learn about something that happened at Sunny School! Then, your child will answer some questions about the characters in the story and what happened."
+                },
+                {
+                    "text": "There are no right or wrong answers to the questions we’re asking – we just want to know what your child thinks, so we kindly ask that you let your child respond freely to the questions. For the duration of the study, please sit behind your child or out of your child's eyesight to avoid influencing their answers. However, if your child needs help clicking their answer choices, please help them do so."
+                }
+            ],
+            "showPreviousButton": false
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to call the Early Learning and Cognition Lab at (650)-814-4126 and we'd be glad to help you out!"
+        },
+         "video-consent": {
+            "gdpr": false,
+            "kind": "exp-lookit-video-consent",
+            "PIName": "Julia Leonard",
+            "datause": "We are primarily interested in what your child thinks about what happened at Sunny School. A research assistant will watch your video to verify which options your child chose.",
+            "payment": "You will be emailed a $5 Amazon gift card within one week of participating in this study. To be eligible for the gift card your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. We will send a gift card even if you do not finish the whole study or we are not able to use your child's data! There are no other direct benefits to you or your child from participating, but we hope you will enjoy the experience.",
+            "purpose": "In this study, we are interested in how children understand rules that disparately impact particular social groups (e.g., race, gender). We are curious how different factors might impact children's perceptions of these rules!",
+            "template": "consent_005",
+            "PIContact": "Julia Leonard at yalelearninglab@gmail.com",
+            "procedures": "In the study, your child will hear about a school called Sunny School. They will learn about something that happened at Sunny School and answer a series of questions by clicking on the screen. \r There are no right or wrong answers in this game. We are just curious what your child thinks! We will ask you (the parent) to avoid discussing the game with your child until the end. You will be given a chance to preview what your child will see before before the study begins. There are no anticipated risks associated with participating.",
+            "institution": "Yale University",
+            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study.  If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the Chairman of the Committee on the Use of Humans as Experimental Subjects, M.I.T., Room E25-143B, 77 Massachusetts Ave, Cambridge, MA 02139, phone 1-617-253 6787."
+        },
+        "video-assent": {
+            "kind": "exp-lookit-video-assent",
+            "pages": [
+                {
+                    "imgSrc": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/img/mug.png",
+                    "altText": "scientist",
+                    "textBlocks": [
+                        {
+                            "text": "My name is Aarthi Popat. I am a scientist who studies what children think about social groups."
+                        }
+                    ],
+                    "audio": "sample_1",
+                    "type": "audio/mp3"
+                },
+                {
+                    "imgSrc": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/img/mug.png",
+                    "altText": "picture of sample game",
+                    "textBlocks": [
+                        {
+                            "text": "In this study, you will hear about a school called Sunny School and answer some questions about what happened at Sunny School by clicking on answer choices!"
+                        }
+                    ],
+                    "audio": "sample_1",
+                    "type": "audio/mp3"
+                },
+                {
+                    "showWebcam": true,
+                    "textBlocks": [
+                        {
+                            "text": "During the study, your webcam will record a video of you. We will watch this video later so we can remember how you answered the questions."
+                        }
+                    ],
+                    "audio": "sample_1",
+                    "type": "audio/mp3"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "participationQuestion": "Do you want to participate in this study?",
+            "minimumYearsToAssent": 7
+        },
+        "video-preview": {
+            "kind": "exp-lookit-stimuli-preview",
+            "blocks": [
+                {
+                    "text": "During the activity, we ask that you sit behind your child."
+                },
+                {
+                    "text": "This is because your child is learning from you all the time, and may pick up on even very small cues about what you think. But if your child can't see you, we're definitely only measuring your child's own beliefs."
+                },
+                {
+                    "text": "If you'd like to see the pictures your child will be shown, you can take a look ahead of time now. It's important that you preview these without your child, so that the pictures and audio will still be new to them."
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+            "stimuli": [
+                {
+                    "image": "mug.png",
+                    "caption": "Children will see the children at Sunny School, who look like this."
+                },
+                {
+                    "image": "mug.png",
+                    "caption": "We'll also introduce your child to alien characters, who look like this."
+                }
+            ],
+            "audioTypes": [
+                "mp3",
+                "ogg"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "skipButtonText": "Skip preview",
+            "previewButtonText": "I'd like to preview the materials",
+            "showPreviousButton": true
+        },
+        "final-instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "text": "Again, the study will take about 10 minutes to complete. After that, you will be able to select a level of privacy for your data."
+                },
+                {
+                    "title": "Study overview",
+                    "listblocks": [
+                        {
+                            "text": "Your child will hear a story about a school called Sunny School."
+                        },
+                        {
+                            "text": "Then your child will answer some questions about the story and what happened in it."
+                        }
+                    ]
+                },
+                {
+                    "title": "Pausing and stopping",
+                    "listblocks": [
+                        {
+                            "text": "If your child gets distracted, or you need to attend to something else for a moment, you can pause the study by pressing the space bar."
+                        },
+                        {
+                            "text": "If you need to end the study early, try closing the window or tab and you should see an 'exit' option pop up. You’ll be prompted to note any technical problems you might be experiencing and to select a privacy level for your videos."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please turn the volume up so it's easy to hear but still comfortable.",
+                    "title": "Test your audio",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go!'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "nextButtonText": "Let's get in position!"
+        },
+        "webcam-display-break": {
+            "kind": "exp-lookit-webcam-display",
+            "blocks": [
+                {
+                    "title": "We're ready to get started!",
+                    "listblocks": [
+                        {
+                            "text": "Please make sure that your child is visible in the webcam."
+                        },
+                        {
+                            "text": "You can say hi to the camera!"
+                        }
+                    ]
+                },
+                {
+                    "title": "During the videos",
+                    "listblocks": [
+                        {
+                            "text": "Please sit behind your child and allow your child to answer the questions on their own. Please don’t correct your child if you disagree, or tell them they’re right if you agree. We’re just interested in what they think! If your child isn’t sure or doesn’t want to answer a question, you can encourage them to make their best guess."
+                        },
+                        {
+                            "text": "However, if your child is having any issues clicking the images, you may help them click."
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "Let's get started!",
+            "showPreviousButton": false,
+            "displayFullscreenOverride": true,
+            "startRecordingAutomatically": false
+        },
+        "my-exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "title": "Thank you!",
+                "blocks": [
+                    {
+                        "text": "Debrief",
+                        "listblocks": [
+                            {
+                                "text": "In this activity, your child heard about a school called Sunny School and a club that a student named Ro made. Ro only allowed kids with short hair to be in the club. Your child answered some questions about Ro's rule: was it okay or not okay? Did they think the rule was really about short hair, or was it made to exclude girls? This study investigated how children think about rules that disproportionately impact a particular social group (known as 'disparate impact' rules). Your child may have seen one girl with short hair included in the club, or heard a justification for the rule. We were curious to see how these manipulations might impact children's perceptions of the rule." 
+                                },
+                                {
+                                    "text": "In these questions there were no right or wrong answers - nobody could know for sure who Ro wanted to play with, for example! But we ask kids to guess anyway, because we're curious about their intuition. This helps us learn more about the factors that impact perception of disparate impact rules."
+                            },
+                            {
+                                "text": "Thank you again for your participation. You and your child are helping us understand how children think about different kinds of discrimination. You can find more of our lab's work at <a href='https://elc-lab-ucsd.com/' target='_blank' rel='noopener'>on our website</a>. If you'd like to learn more about disparate impact rules, check out <a href='https://digitalcommons.wcl.american.edu/cgi/viewcontent.cgi?article=1095&context=facsch_lawrev' target='_blank' rel='noopener'> this article</a>!"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Your $3 gift card will arrive within 7 days.",
+                        "text": "Please contact elclab-coord@ucsd.edu if you have any issues accessing your gift card."
+                    }
+                ]
+            }
+        },
+           "beliefs-start-recording": {
+          "kind": "exp-lookit-start-recording"
+        },
+"beliefs-1": {
+  "kind": "exp-lookit-images-audio",
+  "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+  "audioTypes": ["mp3", "ogg"],
+  "audio": "sample_1",
+  "images": [
+    { "id": "blue", "src": "blue.png", "position": "fill" }
+  ],
+  "autoProceed": true,
+  "doRecording": false
+}
+        "beliefs-stop-recording": {
+          "kind": "exp-lookit-stop-recording"
+        }
+    },
+
+    "sequence": [
+      "study-intro",
+      "video-config",
+      "video-consent",
+      "video-assent",
+      "video-preview",
+      "final-instructions",
+      "webcam-display-break",
+      "beliefs-start-recording",
+      "beliefs-1",
+      "beliefs-stop-recording",
+      "my-exit-survey"
+    ]
+}
+
