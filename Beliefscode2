@@ -6,10 +6,10 @@
                 {
                     "emph": true,
                     "text": "Important: your child does not need to be with you until the videos begin. First, let's go over what will happen!",
-                    "title": "Overview of 'What's going on at Sunny School?'"
+                    "title": "Overview of 'What will parents do?'"
                 },
                 {
-                    "text": "From start to finish, today's activity will take about 15 minutes. First, your child will hear about a school called Sunny School. We'll learn about something that happened at Sunny School! Then, your child will answer some questions about the characters in the story and what happened."
+                    "text": "From start to finish, today's activity will take about 25 minutes. First we have some questions for you (the parent) to answer. Your child does not need to be with you for this part. Then we'll ask you to consent to video recording with your child present. Your child will hear about some children doing activities, and we will ask whether they think the children's parents will help them. We will also ask your child whether they think kids learn more when their parents help."
                 },
                 {
                     "text": "There are no right or wrong answers to the questions we’re asking – we just want to know what your child thinks, so we kindly ask that you let your child respond freely to the questions. For the duration of the study, please sit behind your child or out of your child's eyesight to avoid influencing their answers. However, if your child needs help clicking their answer choices, please help them do so."
@@ -25,7 +25,7 @@
             "gdpr": false,
             "kind": "exp-lookit-video-consent",
             "PIName": "Julia Leonard",
-            "datause": "We are primarily interested in what your child thinks about what happened at Sunny School. A research assistant will watch your video to verify which options your child chose.",
+            "datause": "We are primarily interested in what your child thinks about when and why parents help their kids. A research assistant will watch your video to verify which options your child chose.",
             "payment": "You will be emailed a $5 Amazon gift card within one week of participating in this study. To be eligible for the gift card your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. We will send a gift card even if you do not finish the whole study or we are not able to use your child's data! There are no other direct benefits to you or your child from participating, but we hope you will enjoy the experience.",
             "purpose": "In this study, we are interested in how children understand rules that disparately impact particular social groups (e.g., race, gender). We are curious how different factors might impact children's perceptions of these rules!",
             "template": "consent_005",
@@ -231,7 +231,7 @@
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
       "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
+      "audio": "practice1-intro",
       "images": [
         { "id": "blank", "src": "blank.png", "position": "fill" }
       ],
@@ -242,7 +242,7 @@
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
       "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
+      "audio": "practice1-1-4",
       "images": [
         { "id": "practice1_1", "src": "practice1_1.png", "position": "fill" }
       ],
@@ -253,7 +253,7 @@
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
       "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
+      "audio": "practice1-2",
       "images": [
         { "id": "practice1_2", "src": "practice1_2.png", "position": "fill" }
       ],
@@ -264,7 +264,7 @@
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
       "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
+      "audio": "practice1-3",
       "images": [
         { "id": "practice1_3", "src": "practice1_3.png", "position": "fill" }
       ],
@@ -275,7 +275,7 @@
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
       "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
+      "audio": "practice1-4",
       "images": [
         { "id": "practice1_4", "src": "practice1_4.png", "position": "fill" }
       ],
@@ -286,7 +286,7 @@
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
       "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
+      "audio": "practice1-5",
       "images": [
         { "id": "practice1_5", "src": "practice1_5.png", "position": "fill" }
       ],
@@ -297,7 +297,7 @@
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
       "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
+      "audio": "practice1-6",
       "images": [
         { "id": "practice1_6", "src": "practice1_6.png", "position": "fill" }
       ],
@@ -306,13 +306,13 @@
     },
     {
     "kind": "exp-lookit-images-audio",
-    "audio": "sample_1",
+    "audio": "practice1-choice",
     "images": [
         {
             "id": "practice1_cereal",
             "src": "practice1_choice_cereal.png",
             "position": "left",
-            "feedbackAudio": "sample_1"
+            "feedbackAudio": "practice1-cereal"
         },
         {
             "id": "practice1_eggs",
@@ -320,7 +320,7 @@
             "correct": true,
             "position": "right",
             "displayDelayMs": 3500,
-            "feedbackAudio": "sample_1"
+            "feedbackAudio": "practice1-eggs"
         }
     ],
     "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -4006,535 +4006,3 @@
 }
 
 
-
-                {
-                    "INTRO": "whatever your intro audio is for math",
-                    "INTRO_ID": "intro_math",
-                    "INTRO_IMG": "whatever your intro image is for math.png",
-                    "AUDIO1": "audio 1 for math",
-                    "IMAGE1": "image1 for math.png",
-                    "IMAGE1_ID": "math_1",
-                    ... etc
-                    LEARNING FIRST
-
-                },
-                 {
-                    "INTRO": "whatever your intro audio is for puzzle",
-                    "INTRO_ID": "intro_puzzle",
-                    "INTRO_IMG": "whatever your intro image is for puzzle.png",
-                    "AUDIO1": "audio 1 for puzzle",
-                    "IMAGE1": "image1 for puzzle.png",
-                    "IMAGE1_ID": "puzzle_1",
-                    ... etc
-                    SUCCESS FIRST
-
-                },
-            ]
-        }
-
-
-
-
-
-
-
-   
-    
-     
-         
-          
-
-"practice2-intro": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "blank", "src": "blank.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "practice2-1": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "practice2_1", "src": "practice2_1.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "practice2-2": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "practice2_2", "src": "practice2_2.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "practice2-3": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "practice2_3", "src": "practice2_3.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "practice2-4": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "practice2_4", "src": "practice2_4.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-          "practice2-5": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "practice2_5", "src": "practice2_5.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "practice2-choice": {
-    "kind": "exp-lookit-images-audio",
-    "audio": "sample_1",
-    "images": [
-        {
-            "id": "practice2_slide",
-            "src": "practice2_choice_slide.png",
-            "position": "left",
-            "feedbackAudio": "sample_1"
-        },
-        {
-            "id": "practice2_swings",
-            "src": "practice2_choice_swings.png",
-            "position": "right",
-            "displayDelayMs": 3500,
-            "feedbackAudio": "sample_1"
-        }
-    ],
-    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-    "autoProceed": false,
-    "doRecording": true,
-    "choiceRequired": true,
-    "correctChoiceRequired": false,
-    "canMakeChoiceBeforeAudioFinished": false
-},
-
-  "math-intro": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "blank", "src": "blank.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "math-1": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "math_1", "src": "math_1.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "math-2": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "math_2", "src": "math_2.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "math-3": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "math_3", "src": "math_3.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "math-4": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "math_4", "src": "math_4.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-        "math-5": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "math_5", "src": "math_5.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "math-6": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "math_6", "src": "math_6.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "math-7": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "math_7", "src": "math_7.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "math-choice": {
-    "kind": "exp-lookit-images-audio",
-    "audio": "sample_1",
-    "images": [
-        {
-            "id": "math_TO",
-            "src": "math_choice_TO.png",
-            "position": "left",
-            "feedbackAudio": "sample_1"
-        },
-        {
-            "id": "math_watch",
-            "src": "math_choice_watch.png",
-            "position": "right",
-            "displayDelayMs": 3500,
-            "feedbackAudio": "sample_1"
-        }
-    ],
-    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-    "autoProceed": false,
-    "doRecording": true,
-    "choiceRequired": true,
-    "correctChoiceRequired": false,
-    "canMakeChoiceBeforeAudioFinished": false
-},
-
- "sandwich-intro": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "blank", "src": "blank.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "sandwich-1": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "sandwich_1", "src": "sandwich_1.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "sandwich-2": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "sandwich_2", "src": "sandwich_2.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "sandwich-3": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "sandwich_3", "src": "sandwich_3.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "sandwich-4": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "sandwich_4", "src": "sandwich_4.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-        "sandwich-5": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "sandwich_5", "src": "sandwich_5.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "sandwich-6": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "sandwich_6", "src": "sandwich_6.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "sandwich-7": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "sandwich_7", "src": "sandwich_7.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "sandwich-choice": {
-    "kind": "exp-lookit-images-audio",
-    "audio": "sample_1",
-    "images": [
-        {
-            "id": "sandwich_TO",
-            "src": "sandwich_choice_TO.png",
-            "position": "left",
-            "feedbackAudio": "sample_1"
-        },
-        {
-            "id": "sandwich_watch",
-            "src": "sandwich_choice_watch.png",
-            "position": "right",
-            "displayDelayMs": 3500,
-            "feedbackAudio": "sample_1"
-        }
-    ],
-    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-    "autoProceed": false,
-    "doRecording": true,
-    "choiceRequired": true,
-    "correctChoiceRequired": false,
-    "canMakeChoiceBeforeAudioFinished": false
-},
-
- "buttons-intro": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "blank", "src": "blank.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "buttons-1": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "buttons_1", "src": "buttons_1.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "buttons-2": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "buttons_2", "src": "buttons_2.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "buttons-3": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "buttons_3", "src": "buttons_3.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-      "buttons-4": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "buttons_4", "src": "buttons_4.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-        "buttons-5": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "buttons_5", "src": "buttons_5.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "buttons-6": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "buttons_6", "src": "buttons_6.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "buttons-7": {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "sample_1",
-      "images": [
-        { "id": "buttons_7", "src": "buttons_7.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    "buttons-choice": {
-    "kind": "exp-lookit-images-audio",
-    "audio": "sample_1",
-    "images": [
-        {
-            "id": "buttons_TO",
-            "src": "buttons_choice_TO.png",
-            "position": "left",
-            "feedbackAudio": "sample_1"
-        },
-        {
-            "id": "buttons_watch",
-            "src": "buttons_choice_watch.png",
-            "position": "right",
-            "displayDelayMs": 3500,
-            "feedbackAudio": "sample_1"
-        }
-    ],
-    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-    "autoProceed": false,
-    "doRecording": true,
-    "choiceRequired": true,
-    "correctChoiceRequired": false,
-    "canMakeChoiceBeforeAudioFinished": false
-},
-
-
-    "beliefs-stop-recording": {
-      "kind": "exp-lookit-stop-recording"
-    }
-  },
-  "sequence": [
-    "study-intro",
-    "video-config",
-    "video-consent",
-    "video-assent",
-    "video-preview",
-    "final-instructions",
-    "webcam-display-break",
-    "beliefs-start-recording",
-    "intro",
-    "practice1-1",
-    "practice1-2",
-    "practice1-3",
-    "practice1-4",
-    "practice1-5",
-    "practice1-6",
-    "practice1-choice",
-    "practice2-intro",
-    "practice2-1",
-    "practice2-2",
-    "practice2-3",
-    "practice2-4",
-    "practice2-5",
-    "practice2-choice",
-    "math-intro",
-    "math-1",
-    "math-2",
-    "math-3",
-    "math-4",
-    "math-5",
-    "math-6",
-    "math-7",
-    "math-choice",
-    "sandwich-intro",
-    "sandwich-1",
-    "sandwich-2",
-    "sandwich-3",
-    "sandwich-4",
-    "sandwich-5",
-    "sandwich-6",
-    "sandwich-7",
-    "sandwich-choice",
-    "buttons-intro",
-    "buttons-1",
-    "buttons-2",
-    "buttons-3",
-    "buttons-4",
-    "buttons-5",
-    "buttons-6",
-    "buttons-7",
-    "buttons-choice",
-    "beliefs-stop-recording",
-    "my-exit-survey"
-  ]
-}
