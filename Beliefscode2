@@ -229,14 +229,14 @@
                 {        "kind": "exp-lookit-start-recording"},
     {
     "kind": "exp-lookit-images-audio",
-    "audio": "sample_1",
+    "audio": "howoldareyou",
     "text": "How old are you?",
     "images": [
         {
             "id": "4",
             "src": "4.png",
             "position": "left",
-            "feedbackAudio": "sample_1"
+            "feedbackAudio": "4"
         },
         {
             "id": "5",
@@ -244,7 +244,7 @@
             "correct": true,
             "position": "right",
             "displayDelayMs": 3500,
-            "feedbackAudio": "sample_1"
+            "feedbackAudio": "5"
         }
     ],
     "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -253,7 +253,7 @@
     "choiceRequired": true,
     "correctChoiceRequired": false,
     "canMakeChoiceBeforeAudioFinished": false,
-    "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { if (frameData.selectedImage == '5') { return frameIndex + 49; } else { return frameIndex + 1; } }"
+    "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { if (frameData.selectedImage == '5') { return frameIndex + 53; } else { return frameIndex + 1; } }"
     },
     {
       "kind": "exp-lookit-images-audio",
@@ -516,6 +516,17 @@
       "autoProceed": true,
       "doRecording": false
     },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "hereisanotherending",
+      "images": [
+        { "id": "anotherending", "src": "blank.png", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
 {
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -614,6 +625,17 @@
       "audio": "2-5-audio",
       "images": [
         { "id": "2-5-id", "src": "2-5", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "hereisanotherending",
+      "images": [
+        { "id": "anotherending", "src": "blank.png", "position": "fill" }
       ],
       "autoProceed": true,
       "doRecording": false
@@ -720,6 +742,17 @@
       "autoProceed": true,
       "doRecording": false
     },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "hereisanotherending",
+      "images": [
+        { "id": "anotherending", "src": "blank.png", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
 {
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -822,6 +855,17 @@
       "autoProceed": true,
       "doRecording": false
     },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "hereisanotherending",
+      "images": [
+        { "id": "anotherending", "src": "blank.png", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
 {
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -868,7 +912,7 @@
     "choiceRequired": true,
     "correctChoiceRequired": false,
     "canMakeChoiceBeforeAudioFinished": false,
-     "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { { return frameIndex + 49; } }"
+     "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { { return frameIndex + 53; } }"
 },
 
 
@@ -1134,6 +1178,17 @@
       "autoProceed": true,
       "doRecording": false
     },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "hereisanotherending",
+      "images": [
+        { "id": "anotherending", "src": "blank.png", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
 {
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -1232,6 +1287,17 @@
       "audio": "2-5-audio",
       "images": [
         { "id": "2-5-id", "src": "2-5", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "hereisanotherending",
+      "images": [
+        { "id": "anotherending", "src": "blank.png", "position": "fill" }
       ],
       "autoProceed": true,
       "doRecording": false
@@ -1338,6 +1404,17 @@
       "autoProceed": true,
       "doRecording": false
     },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "hereisanotherending",
+      "images": [
+        { "id": "anotherending", "src": "blank.png", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
 {
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -1436,6 +1513,17 @@
       "audio": "4-5-audio",
       "images": [
         { "id": "4-5-id", "src": "4-5", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "hereisanotherending",
+      "images": [
+        { "id": "anotherending", "src": "blank.png", "position": "fill" }
       ],
       "autoProceed": true,
       "doRecording": false
@@ -7303,30 +7391,139 @@
                 }                
             ]
         },
-    
-     "success-performance": {
+
+
+
+    "success-learning": {
             "kind": "choice",
             "sampler": "random-parameter-set",
             "frameList": [
                 {        "kind": "exp-lookit-start-recording"},
     {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-intro-audio",
+      "images": [
+        { "id": "sl-1-intro-id", "src": "sl-1-intro", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    { "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-intro2-audio",
+      "images": [
+        { "id": "sl-1-intro2-id", "src": "sl-1-intro2", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-1-audio",
+      "images": [
+        { "id": "sl-1-1-id", "src": "sl-1-1", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+{
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-2-audio",
+      "images": [
+        { "id": "sl-1-2-id", "src": "sl-1-2", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+ {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-3-audio",
+      "images": [
+        { "id": "sl-1-3-id", "src": "sl-1-3", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-4-audio",
+      "images": [
+        { "id": "sl-1-4-id", "src": "sl-1-4", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-5-audio",
+      "images": [
+        { "id": "sl-1-5-id", "src": "sl-1-5", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-6-audio",
+      "images": [
+        { "id": "sl-1-6-id", "src": "sl-1-6", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-7-audio",
+      "images": [
+        { "id": "sl-1-7-id", "src": "sl-1-7", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-8-audio",
+      "images": [
+        { "id": "sl-1-8-id", "src": "sl-1-8", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+{
     "kind": "exp-lookit-images-audio",
-    "audio": "sample_1",
-    "text": "How old are you?",
+    "audio": "attncheck1-1-audio",
     "images": [
         {
-            "id": "4",
-            "src": "4.png",
+            "id": "attncheck1-1-left-id",
+            "src": "attncheck1-1-left",
             "position": "left",
-            "feedbackAudio": "sample_1"
+            "feedbackAudio": "attncheck1-1-left-audio"
         },
         {
-            "id": "5",
-            "src": "5.png",
-            "correct": true,
+            "id": "attncheck1-1-right-id",
+            "src": "attncheck1-1-right",
             "position": "right",
             "displayDelayMs": 3500,
-            "feedbackAudio": "sample_1"
+            "feedbackAudio": "attncheck1-1-right-audio"
         }
     ],
     "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -7335,19 +7532,494 @@
     "choiceRequired": true,
     "correctChoiceRequired": false,
     "canMakeChoiceBeforeAudioFinished": false
+},
+{
+    "kind": "exp-lookit-images-audio",
+    "audio": "attncheck1-2-audio",
+    "images": [
+        {
+            "id": "attncheck1-2-left-id",
+            "src": "attncheck1-2-left",
+            "position": "left",
+            "feedbackAudio": "attncheck1-2-left-audio"
+        },
+        {
+            "id": "attncheck1-2-right-id",
+            "src": "attncheck1-2-right",
+            "position": "right",
+            "displayDelayMs": 3500,
+            "feedbackAudio": "attncheck1-2-right-audio"
+        }
+    ],
+    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+    "autoProceed": false,
+    "doRecording": true,
+    "choiceRequired": true,
+    "correctChoiceRequired": false,
+    "canMakeChoiceBeforeAudioFinished": false
+},
+{
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-9-audio",
+      "images": [
+        { "id": "sl-1-9-id", "src": "sl-1-9", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
     },
     {
       "kind": "exp-lookit-images-audio",
       "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
       "audioTypes": ["mp3", "ogg"],
-      "audio": "practice1-intro",
+      "audio": "sl-1-10-audio",
       "images": [
-        { "id": "blank", "src": "blank.png", "position": "fill" }
+        { "id": "sl-1-10-id", "src": "sl-1-10", "position": "fill" }
       ],
       "autoProceed": true,
       "doRecording": false
     },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-11-audio",
+      "images": [
+        { "id": "sl-1-11-id", "src": "sl-1-11", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+      "kind": "exp-lookit-images-audio",
+      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+      "audioTypes": ["mp3", "ogg"],
+      "audio": "sl-1-12-audio",
+      "images": [
+        { "id": "sl-1-12-id", "src": "sl-1-12", "position": "fill" }
+      ],
+      "autoProceed": true,
+      "doRecording": false
+    },
+    {
+    "kind": "exp-lookit-images-audio",
+    "audio": "success-choice-audio",
+    "images": [
+        {
+            "id": "success-choice-left-id",
+            "src": "success-choice-left",
+            "position": "left",
+            "feedbackAudio": "success-choice-left-audio"
+        },
+        {
+            "id": "success-choice-right-id",
+            "src": "success-choice-right",
+            "position": "right",
+            "displayDelayMs": 3500,
+            "feedbackAudio": "success-choice-right-audio"
+        }
+    ],
+    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+    "autoProceed": false,
+    "doRecording": true,
+    "choiceRequired": true,
+    "correctChoiceRequired": false,
+    "canMakeChoiceBeforeAudioFinished": false
+}
 
+],
+            "parameterSets": [
+                {
+                    "sl-1-intro-id": "success-pipblot-intropip",
+                    "sl-1-intro-audio": "success-pip-4",
+                    "sl-1-intro-audio-5": "success-pip-5",
+                    "sl-1-intro": "pip.png",
+                    "sl-1-intro2-id": "success-pipblot-introblot",
+                    "sl-1-intro2-audio": "success-alsoblot-4",
+                    "sl-1-intro2-audio-5": "success-alsoblot-5",
+                    "sl-1-intro2": "blot.png",
+                    "sl-1-1-id": "success-1-pipblot",
+                    "sl-1-1-audio": "success-1-pipblot",
+                    "sl-1-1": "success-1-pipblot.png",
+                    "sl-1-2-id": "success-2-pipblot",
+                    "sl-1-2-audio": "success-2-pipblot",
+                    "sl-1-2": "success-2-pipblot.png",
+                    "sl-1-3-id": "success-pip-TO",
+                    "sl-1-3-audio": "success-pip-TO",
+                    "sl-1-3": "success-pip-TO.png",
+                    "sl-1-4-id": "success-pip-TO2",
+                    "sl-1-4-audio": "success-pip-TO2",
+                    "sl-1-4": "success-pip-TO2.png",
+                    "sl-1-5-id": "success-blot-watch",
+                    "sl-1-5-audio": "success-blot-watch",
+                    "sl-1-5": "success-blot-watch.png",
+                    "sl-1-6-id": "success-blot-watch2",
+                    "sl-1-6-audio": "success-blot-watch2",
+                    "sl-1-6": "success-blot-watch.png",
+                    "sl-1-7-id": "success-pip-TO3",
+                    "sl-1-7-audio": "success-pip-TO3",
+                    "sl-1-7": "success-pip-TO2.png",
+                    "sl-1-8-id": "success-blot-watch3",
+                    "sl-1-8-audio": "success-blot-watch3",
+                    "sl-1-8": "success-blot-watch.png",
+                    "attncheck1-1-audio": "success-attncheck-TO-pipblot",
+                    "attncheck1-1-left-id": "success-attncheck-TO-pip",
+                    "attncheck1-1-left-audio": "success-attncheck-TO-pip",
+                    "attncheck1-1-left": "pipchoice.png",
+                    "attncheck1-1-right-id": "success-attncheck-TO-blot",
+                    "attncheck1-1-right-audio": "success-attncheck-TO-blot",
+                    "attncheck1-1-right": "blotchoice.png",
+                    "attncheck1-2-audio": "success-attncheck-watch-pipblot",
+                    "attncheck1-2-left-id": "success-attncheck-watch-pip",
+                    "attncheck1-2-left-audio": "success-attncheck-watch-pip",
+                    "attncheck1-2-left": "pipchoice.png",
+                    "attncheck1-2-right-id": "success-attncheck-watch-blot",
+                    "attncheck1-2-right-audio": "success-attncheck-watch-blot",
+                    "attncheck1-2-right": "blotchoice.png",
+                    "sl-1-9-id": "success-9-pip",
+                    "sl-1-9-audio": "success-9-pip",
+                    "sl-1-9": "success-pip-TO2.png",
+                    "sl-1-10-id": "success-9-blot",
+                    "sl-1-10-audio": "success-9-blot",
+                    "sl-1-10": "success-blot-watch.png",
+                    "sl-1-11-id": "success-timesup-pipblot",
+                    "sl-1-11-audio": "success-timesup-pipblot",
+                    "sl-1-11": "success-timesup-pipblot.png",
+                    "sl-1-12-id": "success-timesup2",
+                    "sl-1-12-audio": "success-timesup2",
+                    "sl-1-12": "success-timesup2-pipblot.png",
+                    "success-choice-audio": "success-choice-pipblot",
+                    "success-choice-left-id": "pip",
+                    "success-choice-left-audio": "success-pip-why",
+                    "success-choice-left": "pipchoice.png",
+                    "success-choice-right-id": "blot",
+                    "success-choice-right-audio": "success-blot-why",
+                    "success-choice-right": "blotchoice.png",
+
+                    "2-1-id": "puzzle_1",
+                    "2-1-audio": "puzzle-1-4",
+                    "2-1-audio-5": "puzzle-1-5",
+                    "2-1": "puzzle_1.png",
+                    "2-2-id": "puzzle_2",
+                    "2-2-audio": "puzzle-2",
+                    "2-2": "puzzle_2.png",
+                    "2-3-id": "puzzle_3",
+                    "2-3-audio": "puzzle-3",
+                    "2-3": "puzzle_3.png",
+                    "2-4-id": "puzzle_4",
+                    "2-4-audio": "puzzle-5-watch",
+                    "2-4": "puzzle_4.png",
+                    "2-5-id": "puzzle_5",
+                    "2-5-audio": "puzzle-5-watch2",
+                    "2-5": "puzzle_5.png",
+                    "2-6-id": "puzzle_6",
+                    "2-6-audio": "puzzle-4-TO",
+                    "2-6": "puzzle_6.png",
+                    "2-7-id": "puzzle_7",
+                    "2-7-audio": "puzzle-4-TO2",
+                    "2-7": "puzzle_7.png",
+                    "2-choice-audio": "puzzle-choice-watch-TO",
+                    "2-TO-id": "puzzle_watch",
+                    "2-TO-audio": "puzzle-watch-why",
+                    "2-TO": "puzzle_choice_watch.png",
+                    "2-watch-id": "puzzle_TO",
+                    "2-watch-audio": "puzzle-TO-why",
+                    "2-watch": "puzzle_choice_TO.png"
+                },
+                {
+                    "sl-1-intro-id": "success-pipblot-intropip",
+                    "sl-1-intro-audio": "success-pip-4",
+                    "sl-1-intro-audio-5": "success-pip-5",
+                    "sl-1-intro": "pip.png",
+                    "sl-1-intro2-id": "success-pipblot-introblot",
+                    "sl-1-intro2-audio": "success-alsoblot-4",
+                    "sl-1-intro2-audio-5": "success-alsoblot-5",
+                    "sl-1-intro2": "blot.png",
+                    "sl-1-1-id": "success-1-pipblot",
+                    "sl-1-1-audio": "success-1-pipblot",
+                    "sl-1-1": "success-1-pipblot.png",
+                    "sl-1-2-id": "success-2-pipblot",
+                    "sl-1-2-audio": "success-2-pipblot",
+                    "sl-1-2": "success-2-pipblot.png",
+                    "sl-1-3-id": "success-pip-TO",
+                    "sl-1-3-audio": "success-pip-TO",
+                    "sl-1-3": "success-pip-TO.png",
+                    "sl-1-4-id": "success-pip-TO2",
+                    "sl-1-4-audio": "success-pip-TO2",
+                    "sl-1-4": "success-pip-TO2.png",
+                    "sl-1-5-id": "success-blot-watch",
+                    "sl-1-5-audio": "success-blot-watch",
+                    "sl-1-5": "success-blot-watch.png",
+                    "sl-1-6-id": "success-blot-watch2",
+                    "sl-1-6-audio": "success-blot-watch2",
+                    "sl-1-6": "success-blot-watch.png",
+                    "sl-1-7-id": "success-pip-TO3",
+                    "sl-1-7-audio": "success-pip-TO3",
+                    "sl-1-7": "success-pip-TO2.png",
+                    "sl-1-8-id": "success-blot-watch3",
+                    "sl-1-8-audio": "success-blot-watch3",
+                    "sl-1-8": "success-blot-watch.png",
+                    "attncheck1-1-audio": "success-attncheck-watch-pipblot",
+                    "attncheck1-1-left-id": "success-attncheck-watch-pip",
+                    "attncheck1-1-left-audio": "success-attncheck-watch-pip",
+                    "attncheck1-1-left": "pipchoice.png",
+                    "attncheck1-1-right-id": "success-attncheck-watch-blot",
+                    "attncheck1-1-right-audio": "success-attncheck-watch-blot",
+                    "attncheck1-1-right": "blotchoice.png",
+                    "attncheck1-2-audio": "success-attncheck-TO-pipblot",
+                    "attncheck1-2-left-id": "success-attncheck-TO-pip",
+                    "attncheck1-2-left-audio": "success-attncheck-TO-pip",
+                    "attncheck1-2-left": "pipchoice.png",
+                    "attncheck1-2-right-id": "success-attncheck-TO-blot",
+                    "attncheck1-2-right-audio": "success-attncheck-TO-blot",
+                    "attncheck1-2-right": "blotchoice.png",
+                    "sl-1-9-id": "success-9-pip",
+                    "sl-1-9-audio": "success-9-pip",
+                    "sl-1-9": "success-pip-TO2.png",
+                    "sl-1-10-id": "success-9-blot",
+                    "sl-1-10-audio": "success-9-blot",
+                    "sl-1-10": "success-blot-watch.png",
+                    "sl-1-11-id": "success-timesup-pipblot",
+                    "sl-1-11-audio": "success-timesup-pipblot",
+                    "sl-1-11": "success-timesup-pipblot.png",
+                    "sl-1-12-id": "success-timesup2",
+                    "sl-1-12-audio": "success-timesup2",
+                    "sl-1-12": "success-timesup2-pipblot.png",
+                    "success-choice-audio": "success-choice-pipblot",
+                    "success-choice-left-id": "pip",
+                    "success-choice-left-audio": "success-pip-why",
+                    "success-choice-left": "pipchoice.png",
+                    "success-choice-right-id": "blot",
+                    "success-choice-right-audio": "success-blot-why",
+                    "success-choice-right": "blotchoice.png",
+
+                    "2-1-id": "puzzle_1",
+                    "2-1-audio": "puzzle-1-4",
+                    "2-1-audio-5": "puzzle-1-5",
+                    "2-1": "puzzle_1.png",
+                    "2-2-id": "puzzle_2",
+                    "2-2-audio": "puzzle-2",
+                    "2-2": "puzzle_2.png",
+                    "2-3-id": "puzzle_3",
+                    "2-3-audio": "puzzle-3",
+                    "2-3": "puzzle_3.png",
+                    "2-4-id": "puzzle_4",
+                    "2-4-audio": "puzzle-5-watch",
+                    "2-4": "puzzle_4.png",
+                    "2-5-id": "puzzle_5",
+                    "2-5-audio": "puzzle-5-watch2",
+                    "2-5": "puzzle_5.png",
+                    "2-6-id": "puzzle_6",
+                    "2-6-audio": "puzzle-4-TO",
+                    "2-6": "puzzle_6.png",
+                    "2-7-id": "puzzle_7",
+                    "2-7-audio": "puzzle-4-TO2",
+                    "2-7": "puzzle_7.png",
+                    "2-choice-audio": "puzzle-choice-watch-TO",
+                    "2-TO-id": "puzzle_watch",
+                    "2-TO-audio": "puzzle-watch-why",
+                    "2-TO": "puzzle_choice_watch.png",
+                    "2-watch-id": "puzzle_TO",
+                    "2-watch-audio": "puzzle-TO-why",
+                    "2-watch": "puzzle_choice_TO.png"
+                },
+                {
+                    "sl-1-intro-id": "success-blotpip-introblot",
+                    "sl-1-intro-audio": "success-blot-4",
+                    "sl-1-intro-audio-5": "success-blot-5",
+                    "sl-1-intro": "blot.png",
+                    "sl-1-intro2-id": "success-blotpip-intropip",
+                    "sl-1-intro2-audio": "success-alsopip-4",
+                    "sl-1-intro2-audio-5": "success-alsopip-5",
+                    "sl-1-intro2": "pip.png",
+                    "sl-1-1-id": "success-1-blotpip",
+                    "sl-1-1-audio": "success-1-blotpip",
+                    "sl-1-1": "success-1-blotpip.png",
+                    "sl-1-2-id": "success-2-blotpip",
+                    "sl-1-2-audio": "success-2-blotpip",
+                    "sl-1-2": "success-2-blotpip.png",
+                    "sl-1-3-id": "success-blot-watch",
+                    "sl-1-3-audio": "success-blot-watch",
+                    "sl-1-3": "success-blot-watch.png",
+                    "sl-1-4-id": "success-blot-watch2",
+                    "sl-1-4-audio": "success-blot-watch2",
+                    "sl-1-4": "success-blot-watch.png",
+                    "sl-1-5-id": "success-pip-TO",
+                    "sl-1-5-audio": "success-pip-TO",
+                    "sl-1-5": "success-pip-TO.png",
+                    "sl-1-6-id": "success-pip-TO2",
+                    "sl-1-6-audio": "success-pip-TO2",
+                    "sl-1-6": "success-pip-TO2.png",
+                    "sl-1-7-id": "success-blot-watch3",
+                    "sl-1-7-audio": "success-blot-watch3",
+                    "sl-1-7": "success-blot-watch.png",
+                    "sl-1-8-id": "success-pip-TO3",
+                    "sl-1-8-audio": "success-pip-TO3",
+                    "sl-1-8": "success-pip-TO2.png",
+                    "attncheck1-1-audio": "success-attncheck-TO-blotpip",
+                    "attncheck1-1-left-id": "success-attncheck-TO-blot",
+                    "attncheck1-1-left-audio": "success-attncheck-TO-blot",
+                    "attncheck1-1-left": "blotchoice.png",
+                    "attncheck1-1-right-id": "success-attncheck-TO-pip",
+                    "attncheck1-1-right-audio": "success-attncheck-TO-pip",
+                    "attncheck1-1-right": "pipchoice.png",
+                    "attncheck1-2-audio": "success-attncheck-watch-blotpip",
+                    "attncheck1-2-left-id": "success-attncheck-watch-blot",
+                    "attncheck1-2-left-audio": "success-attncheck-watch-blot",
+                    "attncheck1-2-left": "blotchoice.png",
+                    "attncheck1-2-right-id": "success-attncheck-watch-pip",
+                    "attncheck1-2-right-audio": "success-attncheck-watch-pip",
+                    "attncheck1-2-right": "pipchoice.png",
+                    "sl-1-9-id": "success-9-blot",
+                    "sl-1-9-audio": "success-9-blot",
+                    "sl-1-9": "success-blot-watch.png",
+                    "sl-1-10-id": "success-9-pip",
+                    "sl-1-10-audio": "success-9-pip",
+                    "sl-1-10": "success-pip-TO2.png",
+                    "sl-1-11-id": "success-timesup-blotpip",
+                    "sl-1-11-audio": "success-timesup-blotpip",
+                    "sl-1-11": "success-timesup-blotpip.png",
+                    "sl-1-12-id": "success-timesup2",
+                    "sl-1-12-audio": "success-timesup2",
+                    "sl-1-12": "success-timesup2-blotpip.png",
+                    "success-choice-audio": "success-choice-blotpip",
+                    "success-choice-left-id": "blot",
+                    "success-choice-left-audio": "success-blot-why",
+                    "success-choice-left": "blotchoice.png",
+                    "success-choice-right-id": "pip",
+                    "success-choice-right-audio": "success-pip-why",
+                    "success-choice-right": "pipchoice.png",
+
+                    "2-1-id": "puzzle_1",
+                    "2-1-audio": "puzzle-1-4",
+                    "2-1-audio-5": "puzzle-1-5",
+                    "2-1": "puzzle_1.png",
+                    "2-2-id": "puzzle_2",
+                    "2-2-audio": "puzzle-2",
+                    "2-2": "puzzle_2.png",
+                    "2-3-id": "puzzle_3",
+                    "2-3-audio": "puzzle-3",
+                    "2-3": "puzzle_3.png",
+                    "2-4-id": "puzzle_4",
+                    "2-4-audio": "puzzle-5-watch",
+                    "2-4": "puzzle_4.png",
+                    "2-5-id": "puzzle_5",
+                    "2-5-audio": "puzzle-5-watch2",
+                    "2-5": "puzzle_5.png",
+                    "2-6-id": "puzzle_6",
+                    "2-6-audio": "puzzle-4-TO",
+                    "2-6": "puzzle_6.png",
+                    "2-7-id": "puzzle_7",
+                    "2-7-audio": "puzzle-4-TO2",
+                    "2-7": "puzzle_7.png",
+                    "2-choice-audio": "puzzle-choice-watch-TO",
+                    "2-TO-id": "puzzle_watch",
+                    "2-TO-audio": "puzzle-watch-why",
+                    "2-TO": "puzzle_choice_watch.png",
+                    "2-watch-id": "puzzle_TO",
+                    "2-watch-audio": "puzzle-TO-why",
+                    "2-watch": "puzzle_choice_TO.png"
+                },
+                {
+                    "sl-1-intro-id": "success-blotpip-introblot",
+                    "sl-1-intro-audio": "success-blot-4",
+                    "sl-1-intro-audio-5": "success-blot-5",
+                    "sl-1-intro": "blot.png",
+                    "sl-1-intro2-id": "success-blotpip-intropip",
+                    "sl-1-intro2-audio": "success-alsopip-4",
+                    "sl-1-intro2-audio-5": "success-alsopip-5",
+                    "sl-1-intro2": "pip.png",
+                    "sl-1-1-id": "success-1-blotpip",
+                    "sl-1-1-audio": "success-1-blotpip",
+                    "sl-1-1": "success-1-blotpip.png",
+                    "sl-1-2-id": "success-2-blotpip",
+                    "sl-1-2-audio": "success-2-blotpip",
+                    "sl-1-2": "success-2-blotpip.png",
+                    "sl-1-3-id": "success-blot-watch",
+                    "sl-1-3-audio": "success-blot-watch",
+                    "sl-1-3": "success-blot-watch.png",
+                    "sl-1-4-id": "success-blot-watch2",
+                    "sl-1-4-audio": "success-blot-watch2",
+                    "sl-1-4": "success-blot-watch.png",
+                    "sl-1-5-id": "success-pip-TO",
+                    "sl-1-5-audio": "success-pip-TO",
+                    "sl-1-5": "success-pip-TO.png",
+                    "sl-1-6-id": "success-pip-TO2",
+                    "sl-1-6-audio": "success-pip-TO2",
+                    "sl-1-6": "success-pip-TO2.png",
+                    "sl-1-7-id": "success-blot-watch3",
+                    "sl-1-7-audio": "success-blot-watch3",
+                    "sl-1-7": "success-blot-watch.png",
+                    "sl-1-8-id": "success-pip-TO3",
+                    "sl-1-8-audio": "success-pip-TO3",
+                    "sl-1-8": "success-pip-TO2.png",
+                    "attncheck1-1-audio": "success-attncheck-watch-blotpip",
+                    "attncheck1-1-left-id": "success-attncheck-watch-blot",
+                    "attncheck1-1-left-audio": "success-attncheck-watch-blot",
+                    "attncheck1-1-left": "blotchoice.png",
+                    "attncheck1-1-right-id": "success-attncheck-watch-pip",
+                    "attncheck1-1-right-audio": "success-attncheck-watch-pip",
+                    "attncheck1-1-right": "pipchoice.png",
+                    "attncheck1-2-audio": "success-attncheck-TO-blotpip",
+                    "attncheck1-2-left-id": "success-attncheck-TO-blot",
+                    "attncheck1-2-left-audio": "success-attncheck-TO-blot",
+                    "attncheck1-2-left": "blotchoice.png",
+                    "attncheck1-2-right-id": "success-attncheck-TO-pip",
+                    "attncheck1-2-right-audio": "success-attncheck-TO-pip",
+                    "attncheck1-2-right": "pipchoice.png",
+                    "sl-1-9-id": "success-9-blot",
+                    "sl-1-9-audio": "success-9-blot",
+                    "sl-1-9": "success-blot-watch.png",
+                    "sl-1-10-id": "success-9-pip",
+                    "sl-1-10-audio": "success-9-pip",
+                    "sl-1-10": "success-pip-TO2.png",
+                    "sl-1-11-id": "success-timesup-blotpip",
+                    "sl-1-11-audio": "success-timesup-blotpip",
+                    "sl-1-11": "success-timesup-blotpip.png",
+                    "sl-1-12-id": "success-timesup2",
+                    "sl-1-12-audio": "success-timesup2",
+                    "sl-1-12": "success-timesup2-blotpip.png",
+                    "success-choice-audio": "success-choice-blotpip",
+                    "success-choice-left-id": "blot",
+                    "success-choice-left-audio": "success-blot-why",
+                    "success-choice-left": "blotchoice.png",
+                    "success-choice-right-id": "pip",
+                    "success-choice-right-audio": "success-pip-why",
+                    "success-choice-right": "pipchoice.png",
+
+                    "2-1-id": "puzzle_1",
+                    "2-1-audio": "puzzle-1-4",
+                    "2-1-audio-5": "puzzle-1-5",
+                    "2-1": "puzzle_1.png",
+                    "2-2-id": "puzzle_2",
+                    "2-2-audio": "puzzle-2",
+                    "2-2": "puzzle_2.png",
+                    "2-3-id": "puzzle_3",
+                    "2-3-audio": "puzzle-3",
+                    "2-3": "puzzle_3.png",
+                    "2-4-id": "puzzle_4",
+                    "2-4-audio": "puzzle-5-watch",
+                    "2-4": "puzzle_4.png",
+                    "2-5-id": "puzzle_5",
+                    "2-5-audio": "puzzle-5-watch2",
+                    "2-5": "puzzle_5.png",
+                    "2-6-id": "puzzle_6",
+                    "2-6-audio": "puzzle-4-TO",
+                    "2-6": "puzzle_6.png",
+                    "2-7-id": "puzzle_7",
+                    "2-7-audio": "puzzle-4-TO2",
+                    "2-7": "puzzle_7.png",
+                    "2-choice-audio": "puzzle-choice-watch-TO",
+                    "2-TO-id": "puzzle_watch",
+                    "2-TO-audio": "puzzle-watch-why",
+                    "2-TO": "puzzle_choice_watch.png",
+                    "2-watch-id": "puzzle_TO",
+                    "2-watch-audio": "puzzle-TO-why",
+                    "2-watch": "puzzle_choice_TO.png"
+                }
+                ]
+        },
 
     "beliefs-stop-recording": {
       "kind": "exp-lookit-stop-recording"
@@ -7362,7 +8034,7 @@
     "final-instructions",
     "webcam-display-break",
     "test-trials",
-    "success-performance",
+    "success-learning",
     "beliefs-stop-recording",
     "my-exit-survey"
   ]
