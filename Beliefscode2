@@ -23,109 +23,24 @@
             ],
             "showPreviousButton": false
         },
-        "parent-consent": {
+       "parent-consent": {
           "gdpr": false,
-          "kind": "exp-lookit-survey-consent",
-          "title": "Consent to participate in parent survey: Who will do the puzzle?",
-          "items": [
-            {
-                "kind": "text-block",
-                "text": "We are asking you to join a research study. Observing your behavior during this experimental session will help us to understand how adults think about the social world. Study procedures include simple activities, like listening to stories, playing games, and watching videos. If you are interested in learning more about the study, please continue reading, or have someone read to you, the rest of this document before you make your decision. Ask study personnel questions about anything you do not understand. Once you understand the study, please follow the instructions on the right-hand side of the screen to complete the consent process."
-            },
-            {
-                "kind": "text-block",
-                "text": "All of your responses will be held confidential, and all data will be stored on a secure, password- protected Yale drive. Only the researchers involved in this study and those responsible for research oversight (such as representatives of the Yale University Human Research Protection Program, Yale Institutional Review Boards, and others) will have access to any information that could identify you that you provide. We will share it with others if you agree to it or when we have to do it because U.S. or State law requires it. For example, we will tell somebody if we learn that you are hurting a child or an older person. When we publish the results of the research or talk about it in conferences, we will not use your name. We will not ask you for any additional permission."
-            },
-            {
-                "kind": "text-block",
-                "text": "The Lookit core team at MIT will also have access to the data collected during this session, in addition to your account data. They use this data to run and improve Lookit, for instance to provide technical support, check how well data collection is working, or see whether Lookit is reaching a diverse group of families. Lookit stores data indefinitely unless you withdraw your recordings at the end of the study."
-            },
-            {
-                "kind": "text-block",
-                "text": "There are no known risks associated with this study. Although this study will not benefit you personally, we hope it will add to our understanding of how adults think about the world. We cannot and do not guarantee or promise that you will receive any benefits from this study, apart from the satisfaction of participating in cognitive development research."
-            },
-            {
-                "kind": "text-block",
-                "text": "We are conducting a research study to examine how adults learn and think about the social world."
-            },
-            {
-                "kind": "text-block",
-                "text": "Participation in this study involves completing a questionnaire about your attitudes and beliefs about the social world or simple scenes involving people and groups. These questions are straightforward, and they will either be read to you or you will read them on a computer. These questions do not have a correct answer. Our only purpose is to understand how adults think. We anticipate that your involvement will require less than 5 minutes."
-            },
-            {
-                "kind": "text-block",
-                "text": "You are free to choose whether to be in this study. If you do choose to participate, it's okay to stop at any point during the session."
-            },
-            {
-                "kind": "text-block",
-                "text": "The results of this study may be presented at scientific meetings or published in scientific journals. We may publish individual responses that cannot identify people, like looking times or sequences of button presses. We never publish birthdates or names. Even if you choose to share your recordings, we never publish information that would make it possible to link recordings with your demographic data."
-            },
-            {
-                "kind": "text-block",
-                "text": "During the session, you will be recorded by your computer's webcam and microphone. These webcam recordings are sent securely to the Lookit platform, and other data like answers you enter in forms are sent to the Qualtrics platform. You can view your past webcam recordings on Lookit at any time. Data are stored securely on Lookit and Qualtrics servers and by researchers, and are only shared as described in this document. However, there is always a small risk that data transmitted over the internet may be intercepted or that the security of stored data may be compromised. We will first check that you really agreed to participate by watching your consent recording. If we cannot confirm that you agreed to participate, no one will view any other recordings from this session. At the end of the session, you will choose a privacy level for your webcam recordings. You will also have the option to withdraw your recordings. If you do, only your consent recording will be kept."
-            },
-            {
-                "kind": "text-block",
-                "text": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Yale Human Research Protection Program to speak to someone independent of the research team at 203-785-4688. You can also write to the Yale Human Research Protection Program, Yale University, HRPP@yale.edu."
-            },
-            {
-                "kind": "text-block",
-                "text": "This study is run by Professor Julia Leonard at Yale University. Please contact arielle.belluck@yale.edu with any questions."
-            },
-            {
-                "kind": "checkbox-item",
-                "text": "I confirm I have read and understood the Information Sheet for the above-named study. The information has been fully explained to me and I have been able to contact the researchers with enquiries.",
-                "label": "read_sheet"
-            },
-            {
-                "kind": "checkbox-item",
-                "text": "I understand that participation in this study is entirely voluntary, and if I decide that I do not want to take part, they can stop taking part in this study at any time without giving a reason.",
-                "label": "voluntary"
-            },
-            {
-                "kind": "checkbox-item",
-                "text": "I understand that I will be receiving a small remuneration of $5 for participation in this study, including both the parent and child portions.",
-                "label": "compensation"
-            },
-            {
-                "kind": "checkbox-item",
-                "text": "I know how to contact the research team if I need to.",
-                "label": "contact"
-            },
-            {
-                "kind": "checkbox-item",
-                "text": "I agree to take part in this research study with my child having been fully informed of the risks, benefits and alternatives which are set out in full in the information leaflet which I have been provided with.",
-                "label": "fully_informed"
-            },
-            {
-                "kind": "text-block",
-                "title": "Data processing"
-            },
-            {
-                "kind": "checkbox-item",
-                "text": "I give my permission for my data to be used in line with the aims of the research study, as outlined in the information sheet.",
-                "label": "use_data"
-            },
-            {
-                "kind": "checkbox-item",
-                "text": "I understand that results from analysis of my personal information will not be given to me.",
-                "label": "no_personal_results"
-            },
-            {
-                "kind": "checkbox-item",
-                "text": "I understand that confidentiality may be breached in circumstances in which: <ol><li>The research team has a strong belief or evidence exists that there is a serious risk of harm or danger to either the participant or another individual.  This may relate to issues surrounding physical, emotional and/or sexual abuse, concerns for child protection, rape, self-harm, suicidal intent or criminal activity.</li><li>Disclosure is required as part of a legal process or Garda investigation. In such instances, information may be disclosed to significant others or appropriate third parties without permission being sought.  Where possible, a full explanation will be given to the participant regarding the necessary procedures and also the intended actions that may need to be taken.</li></ol>",
-                "label": "confidentiality_limits"
-            },
-            {
-                "kind": "multiple-choice",
-                "question": "PUBLIC DATABASE: I give permission for my personal data, in the form of webcam recordings to be shared with the scientific community and the general public via a fully open database on the internet. <b>Agreeing to publicly sharing your data is NOT required for participation in this study.</b> This data will be de-identified as much as possible (that is, all efforts will be taken by the research team to remove any identifying features in the footage, and no names, dates of birth, addresses, etc will be provided with the data). I understand that data shared in this way will be accessible to researchers and members of the public anywhere in the world, not just the EEA, and thus may be transferred outside the EEA. I understand that by sharing data in this way, my data might be used for other, future research projects in addition to the study I am currently participating in. Those future projects can focus on any topic and might be completely unrelated to the goals of this study. <br><br>I understand that although the study team may destroy/withdraw the original dataset from the open database, once the data are shared, it cannot be guaranteed that no copy will remain. I understand that it is possible that some of the research conducted using my shared information eventually could lead to the development of new research methods, new diagnostic tests, new drugs, or other commercial products. I understand that should this occur, there is no plan to provide me, the study team, or TCD with any part of the profits generated from such products, nor will I, the study team, or TCD have any ownership rights in the products.",
-                "answers": [
-                    "Yes",
-                    "No"
-                ],
-                "label": "public_database"
-            }
-        ]
+          "kind": "exp-lookit-video-consent",
+          "template": "consent_005",
+          "institution": "Yale University",
+          "PIName": "Dr. Julia Leonard",
+          "summary_statement": "We are asking you to join a research study. Observing your behavior during this experimental session will help us to understand how adults think about the social world. Study procedures include simple activities, like listening to stories, playing games, and watching videos. If you are interested in learning more about the study, please continue reading, or have someone read to you, the rest of this document before you make your decision. Ask study personnel questions about anything you do not understand. Once you understand the study, please follow the instructions on the right-hand side of the screen to complete the consent process.",
+          "datause": "All of your responses will be held confidential, and all data will be stored on a secure, password- protected Yale drive. Only the researchers involved in this study and those responsible for research oversight (such as representatives of the Yale University Human Research Protection Program, Yale Institutional Review Boards, and others) will have access to any information that could identify you that you provide. We will share it with others if you agree to it or when we have to do it because U.S. or State law requires it. For example, we will tell somebody if we learn that you are hurting a child or an older person. When we publish the results of the research or talk about it in conferences, we will not use your name. We will not ask you for any additional permission.",
+          "use of data by Lookit": "The Lookit core team at MIT will also have access to the data collected during this session, in addition to your account data. They use this data to run and improve Lookit, for instance to provide technical support, check how well data collection is working, or see whether Lookit is reaching a diverse group of families. Lookit stores data indefinitely unless you withdraw your recordings at the end of the study.",
+          "payment": "There are no known risks associated with this study. Although this study will not benefit you personally, we hope it will add to our understanding of how adults think about the world. We cannot and do not guarantee or promise that you will receive any benefits from this study, apart from the satisfaction of participating in cognitive development research.",
+          "purpose": "We are conducting a research study to examine how adults learn and think about the social world.",
+          "PIContact": "Professor Julia Leonard (contact: arielle.belluck@yale.edu)",
+          "procedures": "Participation in this study involves completing a questionnaire about your attitudes and beliefs about the social world or simple scenes involving people and groups. These questions are straightforward, and they will either be read to you or you will read them on a computer. These questions do not have a correct answer. Our only purpose is to understand how adults think. We anticipate that your involvement will require less than 5 minutes.",
+          "participation": "You are free to choose whether to be in this study. If you do choose to participate, it's okay to stop at any point during the session.",
+          "publication of results": "The results of this study may be presented at scientific meetings or published in scientific journals. We may publish individual responses that cannot identify people, like looking times or sequences of button presses. We never publish birthdates or names. Even if you choose to share your recordings, we never publish information that would make it possible to link recordings with your demographic data.",
+          "data collection and webcam recording": "During the session, you will be recorded by your computer's webcam and microphone. These webcam recordings are sent securely to the Lookit platform, and other data like answers you enter in forms are sent to the Qualtrics platform. You can view your past webcam recordings on Lookit at any time. Data are stored securely on Lookit and Qualtrics servers and by researchers, and are only shared as described in this document. However, there is always a small risk that data transmitted over the internet may be intercepted or that the security of stored data may be compromised. We will first check that you really agreed to participate by watching your consent recording. If we cannot confirm that you agreed to participate, no one will view any other recordings from this session. At the end of the session, you will choose a privacy level for your webcam recordings. You will also have the option to withdraw your recordings. If you do, only your consent recording will be kept.",
+          "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Yale Human Research Protection Program to speak to someone independent of the research team at 203-785-4688. You can also write to the Yale Human Research Protection Program, Yale University, HRPP@yale.edu.",
+          "prompt_only_adults": true
         },
         "parent-survey-overparenting": {
     "kind": "exp-lookit-survey",
@@ -691,7 +606,7 @@
     "choiceRequired": true,
     "correctChoiceRequired": false,
     "canMakeChoiceBeforeAudioFinished": false,
-    "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { if (frameData.selectedImage == '5') { return frameIndex + 65; } else { return frameIndex + 1; } }"
+    "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { { return frameIndex + 1; } }"
     },
     {
     "kind": "exp-lookit-images-audio",
@@ -701,28 +616,28 @@
             "id": "intro_maybe",
             "src": "maybe.png",
             "position": "left",
-            "displayDelayMs": 10000,
+            "displayDelayMs": 5000,
             "nonChoiceOption": true
         },
         {
             "id": "intro_probably",
             "src": "probably.png",
             "position": "center",
-            "displayDelayMs": 11500,
+            "displayDelayMs": 6500,
             "nonChoiceOption": true
         },
         {
             "id": "intro_definitely",
             "src": "definitely.png",
             "position": "right",
-            "displayDelayMs": 12500,
+            "displayDelayMs": 8000,
             "nonChoiceOption": true
         }
     ],
     "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
     "autoProceed": true,
     "doRecording": true,
-    "choiceRequired": false,
+    "choiceRequired": true,
     "correctChoiceRequired": false,
     "canMakeChoiceBeforeAudioFinished": false
 },
@@ -900,7 +815,8 @@
         { "id": "blank", "src": "blank.png", "position": "fill" }
       ],
       "autoProceed": true,
-      "doRecording": false
+      "doRecording": false,
+      "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { if (frameData.selectedImage == '5') { return frameIndex + 65; } else { return frameIndex + 1; } }"
     },
   {
       "kind": "exp-lookit-images-audio",
@@ -965,15 +881,74 @@
             "id": "practice2_slide",
             "src": "practice2_choice_slide.png",
             "position": "left",
-            "displayDelayMs": 8500,
-            "feedbackAudio": "okgreat"
+            "displayDelayMs": 8500
         },
         {
             "id": "practice2_swings",
             "src": "practice2_choice_swings.png",
             "position": "right",
-            "displayDelayMs": 11000,
-            "feedbackAudio": "okgreat"
+            "displayDelayMs": 11000
+        }
+    ],
+    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+    "autoProceed": true,
+    "doRecording": true,
+    "choiceRequired": true,
+    "correctChoiceRequired": false,
+    "canMakeChoiceBeforeAudioFinished": false,
+    "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { if (frameData.selectedImage == 'practice2_swings') { return frameIndex + 2; } else { return frameIndex + 1; } }"
+},
+{
+    "kind": "exp-lookit-images-audio",
+    "audio": "beliefs_mod_practice2_01",
+    "images": [
+        {
+            "id": "practice2_slide_maybe",
+            "src": "maybe.png",
+            "position": "left",
+            "displayDelayMs": 1500
+        },
+        {
+            "id": "practice2_slide_probably",
+            "src": "probably.png",
+            "position": "center",
+            "displayDelayMs": 3000
+        },
+        {
+            "id": "practice2_slide_definitely",
+            "src": "definitely.png",
+            "position": "right",
+            "displayDelayMs": 5000
+        }
+    ],
+    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+    "autoProceed": true,
+    "doRecording": true,
+    "choiceRequired": true,
+    "correctChoiceRequired": false,
+    "canMakeChoiceBeforeAudioFinished": false
+},
+{
+    "kind": "exp-lookit-images-audio",
+    "audio": "beliefs_mod_practice2_02",
+    "images": [
+        {
+            "id": "practice2_swings_maybe",
+            "src": "maybe.png",
+            "position": "left",
+            "displayDelayMs": 1500
+        },
+        {
+            "id": "practice2_swings_probably",
+            "src": "probably.png",
+            "position": "center",
+            "displayDelayMs": 3000
+        },
+        {
+            "id": "practice2_swings_definitely",
+            "src": "definitely.png",
+            "position": "right",
+            "displayDelayMs": 5000
         }
     ],
     "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -1095,6 +1070,32 @@
       "autoProceed": true,
       "doRecording": false
     },
+{
+    "kind": "exp-lookit-images-audio",
+    "audio": "1-choice-audio",
+    "images": [
+        {
+            "id": "1-TO-id",
+            "src": "1-TO",
+            "position": "left",
+            "displayDelayMs": 3500,
+            "feedbackAudio": "1-TO-audio"
+        },
+        {
+            "id": "1-watch-id",
+            "src": "1-watch",
+            "position": "right",
+            "displayDelayMs": 7000,
+            "feedbackAudio": "1-watch-audio"
+        }
+    ],
+    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
+    "autoProceed": false,
+    "doRecording": true,
+    "choiceRequired": true,
+    "correctChoiceRequired": false,
+    "canMakeChoiceBeforeAudioFinished": false
+},
 {
     "kind": "exp-lookit-images-audio",
     "audio": "1-choice-audio",
@@ -1598,123 +1599,6 @@
       "audio": "progress-3",
       "images": [
         { "id": "progress-3", "src": "progress-3.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-
-
-{
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "practice1-intro",
-      "images": [
-        { "id": "blank", "src": "blank.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "practice1-1-5",
-      "images": [
-        { "id": "practice1_1", "src": "practice1_1.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "practice1-2",
-      "images": [
-        { "id": "practice1_2", "src": "practice1_2.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "practice1-3",
-      "images": [
-        { "id": "practice1_3", "src": "practice1_3.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "practice1-4",
-      "images": [
-        { "id": "practice1_4", "src": "practice1_4.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "practice1-5",
-      "images": [
-        { "id": "practice1_5", "src": "practice1_5.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    {
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "practice1-6",
-      "images": [
-        { "id": "practice1_6", "src": "practice1_6.png", "position": "fill" }
-      ],
-      "autoProceed": true,
-      "doRecording": false
-    },
-    {
-    "kind": "exp-lookit-images-audio",
-    "audio": "practice1-choice",
-    "images": [
-        {
-            "id": "practice1_cereal",
-            "src": "practice1_choice_cereal.png",
-            "position": "left",
-            "displayDelayMs": 3500,
-            "feedbackAudio": "practice1-cereal"
-        },
-        {
-            "id": "practice1_eggs",
-            "src": "practice1_choice_eggs.png",
-            "correct": true,
-            "position": "right",
-            "displayDelayMs": 7000,
-            "feedbackAudio": "practice1-eggs"
-        }
-    ],
-    "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-    "autoProceed": true,
-    "doRecording": true,
-    "choiceRequired": true,
-    "correctChoiceRequired": false,
-    "canMakeChoiceBeforeAudioFinished": false
-},
-{
-      "kind": "exp-lookit-images-audio",
-      "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-      "audioTypes": ["mp3", "ogg"],
-      "audio": "practice2-intro",
-      "images": [
-        { "id": "blank", "src": "blank.png", "position": "fill" }
       ],
       "autoProceed": true,
       "doRecording": false
@@ -16931,12 +16815,12 @@
   },
   "sequence": [
     "study-intro",
+    "video-config",
     "parent-consent",
     "parent-survey-overparenting",
     "parent-survey-capable",
     "parent-survey-learn",
     "parent-survey-learn-important",
-    "video-config",
     "video-preview",
     "child-present",
     "video-consent",
