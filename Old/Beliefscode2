@@ -616,22 +616,19 @@
             "id": "intro_maybe",
             "src": "maybe.png",
             "position": "left",
-            "displayDelayMs": 5000,
-            "nonChoiceOption": true
+            "displayDelayMs": 5000
         },
         {
             "id": "intro_probably",
             "src": "probably.png",
             "position": "center",
-            "displayDelayMs": 6500,
-            "nonChoiceOption": true
+            "displayDelayMs": 6500
         },
         {
             "id": "intro_definitely",
             "src": "definitely.png",
             "position": "right",
-            "displayDelayMs": 8000,
-            "nonChoiceOption": true
+            "displayDelayMs": 8000
         }
     ],
     "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
@@ -926,7 +923,8 @@
     "doRecording": true,
     "choiceRequired": true,
     "correctChoiceRequired": false,
-    "canMakeChoiceBeforeAudioFinished": false
+    "canMakeChoiceBeforeAudioFinished": false,
+    "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { { return frameIndex + 2; } }"
 },
 {
     "kind": "exp-lookit-images-audio",
@@ -1094,33 +1092,39 @@
     "doRecording": true,
     "choiceRequired": true,
     "correctChoiceRequired": false,
-    "canMakeChoiceBeforeAudioFinished": false
+    "canMakeChoiceBeforeAudioFinished": false,
+    "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { if (frameData.selectedImage == '1-TO-id') { return frameIndex + 2; } else { return frameIndex + 1; } }"
 },
 {
     "kind": "exp-lookit-images-audio",
-    "audio": "1-choice-audio",
+    "audio": "beliefs_mod_practice2_01",
     "images": [
         {
-            "id": "1-TO-id",
-            "src": "1-TO",
+            "id": "1_watch_maybe",
+            "src": "maybe.png",
             "position": "left",
-            "displayDelayMs": 3500,
-            "feedbackAudio": "1-TO-audio"
+            "displayDelayMs": 1500
         },
         {
-            "id": "1-watch-id",
-            "src": "1-watch",
+            "id": "1_watch_probably",
+            "src": "probably.png",
+            "position": "center",
+            "displayDelayMs": 3000
+        },
+        {
+            "id": "practice2_slide_definitely",
+            "src": "definitely.png",
             "position": "right",
-            "displayDelayMs": 7000,
-            "feedbackAudio": "1-watch-audio"
+            "displayDelayMs": 5000
         }
     ],
     "baseDir": "https://raw.githubusercontent.com/ariellebelluck/lookit-stimuli-template-beliefs/master/",
-    "autoProceed": false,
+    "autoProceed": true,
     "doRecording": true,
     "choiceRequired": true,
     "correctChoiceRequired": false,
-    "canMakeChoiceBeforeAudioFinished": false
+    "canMakeChoiceBeforeAudioFinished": false,
+    "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { { return frameIndex + 2; } }"
 },
 
     {
@@ -2331,6 +2335,7 @@
                     "1-watch-id": "math_watch",
                     "1-watch-audio": "math-watch-why",
                     "1-watch": "math_choice_watch.png",
+                    "1-watch-graded": "math-watch-graded",
 
                     "2-1-id": "puzzle_1",
                     "2-1-audio": "puzzle-1-4",
